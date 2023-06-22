@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(103, 45, 211);
+    color: white;
+    height: 100px;
+  }
+
+  .nav-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-link{
+    color: white;
+    text-decoration: none;
+    transition:  170ms  ease-out;
+  }
+
+  .nav-link:hover{
+    color: #ef6629;
+    text-decoration: none;
+  }
