@@ -9,7 +9,10 @@ import '../styles/Home.css';
 function Home() {
   return (
     <div className="home-container">
-      <h1>Strona główna</h1>
+      <div className="main-title">
+          <h1>Fundacja Kohezja</h1>
+          Wspieramy osoby aktywistyczne od 2022
+      </div>
       <MissionSection/>
       <ProjectsSection/>
       <DonateSection/>

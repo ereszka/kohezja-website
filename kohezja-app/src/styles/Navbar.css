@@ -5,7 +5,7 @@ nav{
     justify-content: space-around;
     background-color: rgb(103, 45, 211);
     color: white;
-    height: 100px;
+    height: 11vh;
   }
 
   .nav-links{
@@ -17,9 +17,9 @@ nav{
   }
 
   .nav-link{
-    color: white;
+    font-size: large;
+    color: #eae7e4;
     text-decoration: none;
-    transition:  170ms  ease-out;
   }
 
   .nav-link:hover{

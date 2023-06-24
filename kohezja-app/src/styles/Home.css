@@ -2,12 +2,49 @@
    background-color: #eae7e4;
    display: flex;
    flex-direction: column;
-   height: 100vh;
+   padding-top: 2%;
+}
+
+.main-title {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    font-size: large;
+    border-bottom: 2px solid;
+}
+
+.sub-container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sub-container h3{
+    border-left: 5px #9D84FD solid;
+    padding-left: 5px;
+
+}
+
+.projects-table {
+    width: 80%;
+}
+
+.projects-table th {
+    width: 40%;
+    border: 2px solid;
+    padding: 5px;
+}
+
+.section-content{
+   margin-right: 20%;
+   padding: 2%;
+   border: 2px solid;
 }
 
 .footer-component {
-    position: fixed;
-    bottom: 0;
+    height: 100%;
     width: 100%;
     text-align: center;
 }
